@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+        <title>Bootstrap</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="display-3 text-center my-4">NavBar</h1>
+            <div class="container">
+            <div class="row">
+    
+                <div class="col-md-3">
+                    <div class="dropdown">
+                      <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        1: Utilitários
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../1__Utilitários/1_1_tipografia_basica.html">1.1 Tipografia Básica</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_2_alinhamento_texto_display.html">1.2 Alinhamento de texto e Display</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_3_float_position.html">1.3 Float e position</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_4_cores_background.html">1.4 Cores e background</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_5_espacamento.html">1.5 Espaçamentos</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_6_tamanhos.html">1.6 Tamanhos</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_7_breakpoints.html">1.7 Breakpoints</a>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            2: Componentes CSS
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="2_1_botoes.html">2.1 Botões</a>
+                            <a class="dropdown-item" href="2_2_navbar.html">2.2 NavBar</a>
+                            <a class="dropdown-item" href="2_3_listas_badges.html">2.3 Listas e Badges</a>
+                            <a class="dropdown-item" href="2_4_formulario.html">2.4 Formulário</a>
+                            <a class="dropdown-item" href="2_5_inputs.html">2.5 Inputs</a>
+                            <a class="dropdown-item" href="2_6_alertas_barras_progresso.html">2.6 Alertas e Barras de Progresso</a>
+                            <a class="dropdown-item" href="2_7_tabelas_paginacao.html">2.7 Tabelas e Paginação</a>
+                            <a class="dropdown-item" href="2_8_cards.html">2.8 Cards</a>
+                            <a class="dropdown-item" href="2_9_objetos_midia.html">2.9 Objetos de mídia</a>
+                            <a class="dropdown-item" href="2_10_jumbotron.html">2.10 Jumbotron</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            <hr>
+        </header>
+
+        <!-- NavBar simples -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!-- NavBar responsiva -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!-- NavBar com form -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline ml-auto">
+                        <input type="text" class="form-control mr-2" placeholder="Search">
+                        <button class="btn btn-outline-success">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!-- NavBar com menu dropdown -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu dropdown</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link 1</a>
+                            <a href="#" class="dropdown-item">Link 2</a>
+                            <a href="#" class="dropdown-item">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!-- Cores-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-success mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">NavBar</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!-- Fixed-top -->
+        <!-- <nav class="navbar fixed-top navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Navbar fixa no topo da página</a>
+        </nav> -->
+
+        <!-- Fixed-bottom -->
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Navbar fixa no fundo da página</a>
+        </nav>
+
+        <!-- Sticky-top -->
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Navbar</a>
+        </nav>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <!-- Navs -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+
+
+            <!-- Alinhamento horizontal -->
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+
+            <!-- Alinhamento à direita -->
+            <ul class="nav nav-pills justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+
+            <br>
+            <br>
+
+            <!-- Alinhamento vertical -->
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+
+            <br>
+            <br>
+
+            <!-- Preenchimento e justificado -->
+            <ul class="nav nav-fill nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ./container -->
+        <div style="margin-top:500px;"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>

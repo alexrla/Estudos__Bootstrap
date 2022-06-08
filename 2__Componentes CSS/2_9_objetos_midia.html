@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+        <title>Bootstrap</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="display-3 text-center my-4">Objetos de mídia</h1>
+            <div class="container">
+            <div class="row">
+    
+                <div class="col-md-3">
+                    <div class="dropdown">
+                      <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                        1: Utilitários
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../1__Utilitários/1_1_tipografia_basica.html">1.1 Tipografia Básica</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_2_alinhamento_texto_display.html">1.2 Alinhamento de texto e Display</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_3_float_position.html">1.3 Float e position</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_4_cores_background.html">1.4 Cores e background</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_5_espacamento.html">1.5 Espaçamentos</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_6_tamanhos.html">1.6 Tamanhos</a>
+                        <a class="dropdown-item" href="../1__Utilitários/1_7_breakpoints.html">1.7 Breakpoints</a>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            2: Componentes CSS
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="2_1_botoes.html">2.1 Botões</a>
+                            <a class="dropdown-item" href="2_2_navbar.html">2.2 NavBar</a>
+                            <a class="dropdown-item" href="2_3_listas_badges.html">2.3 Listas e Badges</a>
+                            <a class="dropdown-item" href="2_4_formulario.html">2.4 Formulário</a>
+                            <a class="dropdown-item" href="2_5_inputs.html">2.5 Inputs</a>
+                            <a class="dropdown-item" href="2_6_alertas_barras_progresso.html">2.6 Alertas e Barras de Progresso</a>
+                            <a class="dropdown-item" href="2_7_tabelas_paginacao.html">2.7 Tabelas e Paginação</a>
+                            <a class="dropdown-item" href="2_8_cards.html">2.8 Cards</a>
+                            <a class="dropdown-item" href="2_9_objetos_midia.html">2.9 Objetos de mídia</a>
+                            <a class="dropdown-item" href="2_10_jumbotron.html">2.10 Jumbotron</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            <hr>
+        </header>
+
+        <div class="container">
+            <!-- Objeto de mídia -->
+            <div class="media">
+                <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
+                <div class="media-body">
+                    <h5>Media - Cabeçalho</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                    felis in faucibus.
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Objetos de mídia - Aninhamento -->
+            <div class="media">
+                <img class="mr-3" src="https://source.unsplash.com/random/90x91">
+                <div class="media-body">
+                    <h5>Media - Cabeçalho</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                    felis in faucibus.
+
+                    <div class="media mt-4">
+                        <a class="pr-3" href="#">
+                            <img src="https://source.unsplash.com/random/90x92">
+                        </a>
+                        <div class="media-body">
+                            <h5>Objeto aninhado</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                            congue felis in faucibus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Alinhamento no topo (padrão) -->
+            <div class="media">
+                <img class="mr-3 align-self-start" src="https://source.unsplash.com/random/90x93">
+                <div class="media-body">
+                    <h5>Objeto alinhado no topo</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Centralizado-->
+            <div class="media">
+                <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/90x94">
+                <div class="media-body">
+                    <h5>Objeto centralizado</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Alinhamento no fundo da div -->
+            <div class="media">
+                <img class="mr-3 align-self-end" src="https://source.unsplash.com/random/90x95">
+                <div class="media-body">
+                    <h5>Objeto alinhdo no fundo da div</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Lista -->
+            <ul class="list-unstyled">
+                <li class="media">
+                    <img class="mr-3" src="https://source.unsplash.com/random/90x96">
+                    <div class="media-body">
+                        <h5>Objeto de mídia baseado em lista</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="https://source.unsplash.com/random/90x97">
+                    <div class="media-body">
+                        <h5>Objeto de mídia baseado em lista</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="mr-3" src="https://source.unsplash.com/random/90x98">
+                    <div class="media-body">
+                        <h5>Objeto de mídia baseado em lista</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <!-- ./container -->
+        <div style="margin-top:500px;"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
