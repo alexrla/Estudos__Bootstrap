@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="display-3 text-center my-4">Carrossel</h1>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="dropdown">
+              <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                1: Utilitários
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../1__Utilitários/1_1_tipografia_basica.html">1.1 Tipografia Básica</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_2_alinhamento_texto_display.html">1.2 Alinhamento de texto e Display</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_3_float_position.html">1.3 Float e position</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_4_cores_background.html">1.4 Cores e background</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_5_espacamento.html">1.5 Espaçamentos</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_6_tamanhos.html">1.6 Tamanhos</a>
+                <a class="dropdown-item" href="../1__Utilitários/1_7_breakpoints.html">1.7 Breakpoints</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="dropdown">
+                  <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                      2: Componentes CSS
+                  </button>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_1_botoes.html">2.1 Botões</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_2_navbar.html">2.2 NavBar</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_3_listas_badges.html">2.3 Listas e Badges</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_4_formulario.html">2.4 Formulário</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_5_inputs.html">2.5 Inputs</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_6_alertas_barras_progresso.html">2.6 Alertas e Barras de Progresso</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_7_tabelas_paginacao.html">2.7 Tabelas e Paginação</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_8_cards.html">2.8 Cards</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_9_objetos_midia.html">2.9 Objetos de mídia</a>
+                      <a class="dropdown-item" href="../2__Componentes CSS/2_10_jumbotron.html">2.10 Jumbotron</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="dropdown">
+                  <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                      3: Grid e Flexbox
+                  </button>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../3__Grid e FlexBox/3_1_sitema_grid.html">3.1 Sistema Grid</a>
+                      <a class="dropdown-item" href="../3__Grid e FlexBox/3_2_alinhamento_grid.html">3.2 Alinhamento - Grid</a>
+                      <a class="dropdown-item" href="../3__Grid e FlexBox/3_3_flexbox.html">3.3 Flexbox</a>
+                      <a class="dropdown-item" href="../3__Grid e FlexBox/3_4_auto_margins_wrapping_order.html">3.4 Auto, margins, wrapping e order</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="dropdown">
+                  <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                      4: Widgets JavaScript
+                  </button>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="4_1_carrossel.html">4.1 Carrossel</a>
+                      <a class="dropdown-item" href="4_2_collapse.html">4.2 Collapse</a>
+                      <a class="dropdown-item" href="4_3_tooltips.html">4.3 Tooltips</a>
+                      <a class="dropdown-item" href="4_4_popovers.html">4.4 Popovers</a>
+                      <a class="dropdown-item" href="4_5_modais.html">4.5 Modais</a>
+                      <a class="dropdown-item" href="4_6_scrollspy.html">4.6 Scrollspy</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 m-auto">
+
+          <!-- Simples slider -->
+          <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="Primeiro slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Segundo slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Terceiro slide">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider com controles -->
+          <div id="slider2" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="Primeiro slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Segundo slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Terceiro slide">
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider2" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+          <!-- Slider com indicadores -->
+          <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#slider3" data-slide-to="0"></li>
+              <li data-target="#slider3" data-slide-to="1"></li>
+              <li data-target="#slider3" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="Primeiro slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Segundo slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Terceiro slide">
+              </div>
+            </div>
+
+            <!-- Controle -->
+            <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider3" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+          <!-- Slider com legendas -->
+          <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#slider4" data-slide-to="0"></li>
+              <li data-target="#slider4" data-slide-to="1"></li>
+              <li data-target="#slider4" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slide um</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slide dois</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Third Slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Slide três</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider4" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 2000,
+        keyboard: true,
+        pause: 'hover',
+        wrap: true
+      });
+
+      // $('#slider4').on('slide.bs.carousel', function () {
+      //   console.log('SLIDE!');
+      // });
+
+      // $('#slider4').on('slid.bs.carousel', function () {
+      //   console.log('SLID!');
+      // });
+
+    </script>
+  </body>
+</html>
